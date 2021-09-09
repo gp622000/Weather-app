@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+}
+.navbar {
+  background-color: #4472c4;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.btn {
+  background-color: #4472c4;
+  color: white;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#vertical {
+  height: 100%;
+  width: 1px;
+  /* background-color: black; */
+}
+
+.left-side {
+  width: 20%;
+  float: left;
+  margin: 10px;
+  left: 10%;
+}
+
+.right-side {
+  width: 76%;
+  /* float: left; */
+  float: left;
+  margin: 10px;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.table2 {
+  /* padding: 10px; */
+  width: 90%;
+  /* background-color: #4472c4;
+  color: white; */
+}
+
+.t2-tr > td {
+  background-color: #4472c4;
+  color: white;
+  padding: 10px;
+}
+.search-bar {
+  float: right;
+  /* width: 10%; */
+  margin: 10px;
+}
+
+.active-no-data {
+  width: 90%;
+  height: 300px;
+  text-align: center;
+  border: 1px solid black;
+  font-weight: bold;
+  /* padding: 30px; */
+  font-size: 2rem;
+  line-height: 250px;
+  /* line-height: normal; */
+  /* vertical-align: middle; */
+}
